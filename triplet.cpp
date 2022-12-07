@@ -6,7 +6,7 @@ int main(){
     int targetsum=8;
     int size=6;
 
-    int triplets=0;
+    int triplets=0;gti statud
 
     for( int i=0;i<size;i++){
         for(int j=0;j<size;j++){
