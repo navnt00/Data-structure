@@ -13,7 +13,7 @@ int main(){
         }
         swap(array[minindex],array[i]);
     }
-    cout<<"sorted array is: "<<endl;
+    
 
 
     return 0;
