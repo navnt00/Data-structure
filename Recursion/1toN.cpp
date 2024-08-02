@@ -1,14 +1,14 @@
 #include<iostream>
 using namespace std;
-void printNto1(int n){
-    if(n == 0)
+void print1toN(int n){
+    if(n == 0){
         return;
-    printNto1(n - 1);
+    }
     cout << n << " ";
-    
+    print1toN(n + 1);
 }
 int main(){
     int n = 10;
-    printNto1(n);
+    print1toN(n);
     return 0;
 }
