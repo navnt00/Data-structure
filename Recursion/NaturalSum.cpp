@@ -7,7 +7,7 @@ int naturalSum(int n){
         return n + naturalSum(n - 1);     
 }
 int main(){
-    int n = 5;
+    int n = 10;
     cout << naturalSum(n);
     return 0;
 }
