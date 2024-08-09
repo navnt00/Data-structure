@@ -10,7 +10,7 @@ int maxElement(int n, int arr[]){
     return max;
 }
 int main(){
-    int arr[5] = {30, 40, 50, 20, 10};
+    int arr[5] = {30, 40, 50, 20, 10}; //output -> 50
     int n = 5;
     maxElement(n, arr);
     cout << "The Maximum Element is ->" << maxElement(n , arr) << endl;
